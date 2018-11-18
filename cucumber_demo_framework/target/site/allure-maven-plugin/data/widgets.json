@@ -1,0 +1,60 @@
+{
+  "hash" : "9ae4a52f46fbba0c959575303f697deb73e72d63",
+  "data" : [ {
+    "statistic" : {
+      "total" : 6,
+      "passed" : 3,
+      "pending" : 2,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "time" : {
+      "start" : 1518977666284,
+      "stop" : 1518977677344,
+      "duration" : 11060
+    },
+    "name" : "total",
+    "type" : "TOTAL"
+  }, {
+    "name" : "defects",
+    "type" : "DEFECTS",
+    "data" : [ {
+      "count" : 1,
+      "message" : "StaleElementReferenceException: The element reference of <li class=\"results-item\"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Igors-MacBook-Air.local', ip: '2601:86:1:9f1d:0:0:0:1891', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=/var/folders/w3/r4wth4111318t5tkbldwxzxw0000gn/T/rust_mozprofile.tdQexxv4OAVi, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=17.3.0, moz:processID=14677.0, browserName=firefox, javascriptEnabled=true, platformName=darwin, moz:webdriverClick=true}]\nSession ID: 2016a403-9e96-5b45-826c-6b8a9b86d490",
+      "status" : "BROKEN"
+    } ]
+  }, {
+    "name" : "xunit",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "Enter City Name into Flying from box",
+      "statistic" : {
+        "total" : 6,
+        "passed" : 3,
+        "pending" : 2,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 1
+      }
+    } ]
+  }, {
+    "name" : "behaviors",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "Type Ahead Testing",
+      "statistic" : {
+        "total" : 6,
+        "passed" : 3,
+        "pending" : 2,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 1
+      }
+    } ]
+  }, {
+    "name" : "environment",
+    "type" : "KEY_VALUE",
+    "data" : [ ]
+  } ]
+}

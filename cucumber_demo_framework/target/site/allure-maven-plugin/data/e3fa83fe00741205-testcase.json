@@ -1,0 +1,53 @@
+{
+  "uid" : "e3fa83fe00741205",
+  "name" : "Given I’m on Expedia home page",
+  "title" : "Given I’m on Expedia home page",
+  "time" : {
+    "start" : 1518977666284,
+    "stop" : 1518977666290,
+    "duration" : 6
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "871bc7bd955080c7",
+    "name" : "Enter City Name into Flying from box",
+    "title" : "Enter City Name into Flying from box"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Enter City Name into Flying from box"
+  }, {
+    "name" : "host",
+    "value" : "Igors-MacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "14675@Igors-MacBook-Air.local.main(1)"
+  }, {
+    "name" : "story",
+    "value" : "Enter City Name into Flying from box"
+  }, {
+    "name" : "suite-name",
+    "value" : "Enter City Name into Flying from box"
+  }, {
+    "name" : "feature",
+    "value" : "Type Ahead Testing"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "341034b5e26d9003",
+  "name" : "Then I see Paris, France (PAR-All Airports)",
+  "title" : "Then I see Paris, France (PAR-All Airports)",
+  "time" : {
+    "start" : 1518977677316,
+    "stop" : 1518977677318,
+    "duration" : 2
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Test ignored (without reason)!",
+    "stackTrace" : "There are no stack trace"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PENDING",
+  "testId" : null,
+  "suite" : {
+    "uid" : "871bc7bd955080c7",
+    "name" : "Enter City Name into Flying from box",
+    "title" : "Enter City Name into Flying from box"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Enter City Name into Flying from box"
+  }, {
+    "name" : "host",
+    "value" : "Igors-MacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "14675@Igors-MacBook-Air.local.main(1)"
+  }, {
+    "name" : "story",
+    "value" : "Enter City Name into Flying from box"
+  }, {
+    "name" : "suite-name",
+    "value" : "Enter City Name into Flying from box"
+  }, {
+    "name" : "feature",
+    "value" : "Type Ahead Testing"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  } ],
+  "parameters" : [ ]
+}

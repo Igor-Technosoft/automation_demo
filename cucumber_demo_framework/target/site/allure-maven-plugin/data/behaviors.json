@@ -1,0 +1,92 @@
+{
+  "features" : [ {
+    "title" : "Type Ahead Testing",
+    "statistic" : {
+      "total" : 6,
+      "passed" : 3,
+      "pending" : 2,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "stories" : [ {
+      "uid" : "d79493ac62981a42",
+      "title" : "Enter City Name into Flying from box",
+      "statistic" : {
+        "total" : 6,
+        "passed" : 3,
+        "pending" : 2,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 1
+      },
+      "testCases" : [ {
+        "uid" : "e3fa83fe00741205",
+        "name" : "Given I’m on Expedia home page",
+        "title" : "Given I’m on Expedia home page",
+        "time" : {
+          "start" : 1518977666284,
+          "stop" : 1518977666290,
+          "duration" : 6
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "aeaba064300ce350",
+        "name" : "When I click on Flights button",
+        "title" : "When I click on Flights button",
+        "time" : {
+          "start" : 1518977666928,
+          "stop" : 1518977666928,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2899fe35593703ac",
+        "name" : "And I click in Flying from box",
+        "title" : "And I click in Flying from box",
+        "time" : {
+          "start" : 1518977667231,
+          "stop" : 1518977667231,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3f7480d1b4902193",
+        "name" : "And I type Paris",
+        "title" : "And I type Paris",
+        "time" : {
+          "start" : 1518977677291,
+          "stop" : 1518977677308,
+          "duration" : 17
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "341034b5e26d9003",
+        "name" : "Then I see Paris, France (PAR-All Airports)",
+        "title" : "Then I see Paris, France (PAR-All Airports)",
+        "time" : {
+          "start" : 1518977677316,
+          "stop" : 1518977677318,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "c1833ddc7354452c",
+        "name" : "Scenario: Enter City Name into Flying from box",
+        "title" : "Scenario: Enter City Name into Flying from box",
+        "time" : {
+          "start" : 1518977677344,
+          "stop" : 1518977677344,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      } ]
+    } ]
+  } ]
+}

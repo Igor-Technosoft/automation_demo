@@ -1,0 +1,29 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ {
+      "uid" : "69e2ef391e57adae",
+      "failure" : {
+        "message" : "StaleElementReferenceException: The element reference of <li class=\"results-item\"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Igors-MacBook-Air.local', ip: '2601:86:1:9f1d:0:0:0:1891', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=/var/folders/w3/r4wth4111318t5tkbldwxzxw0000gn/T/rust_mozprofile.tdQexxv4OAVi, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=17.3.0, moz:processID=14677.0, browserName=firefox, javascriptEnabled=true, platformName=darwin, moz:webdriverClick=true}]\nSession ID: 2016a403-9e96-5b45-826c-6b8a9b86d490",
+        "stackTrace" : "org.openqa.selenium.StaleElementReferenceException: The element reference of <li class=\"results-item\"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Igors-MacBook-Air.local', ip: '2601:86:1:9f1d:0:0:0:1891', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_151'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=/var/folders/w3/r4wth4111318t5tkbldwxzxw0000gn/T/rust_mozprofile.tdQexxv4OAVi, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=17.3.0, moz:processID=14677.0, browserName=firefox, javascriptEnabled=true, platformName=darwin, moz:webdriverClick=true}]\nSession ID: 2016a403-9e96-5b45-826c-6b8a9b86d490\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:156)\n\tat framework.ExpediaHomePage.testAutoComplete(ExpediaHomePage.java:31)\n\tat stepdefinition.ExpediaHomePageSD.enterTypeAhead(ExpediaHomePageSD.java:30)\n\tat ✽.And I type Paris(expediahomepage.feature:10)\n"
+      },
+      "testCases" : [ {
+        "uid" : "3f7480d1b4902193",
+        "name" : "And I type Paris",
+        "title" : "And I type Paris",
+        "time" : {
+          "start" : 1518977677291,
+          "stop" : 1518977677308,
+          "duration" : 17
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}
